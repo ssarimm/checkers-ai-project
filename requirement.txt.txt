@@ -1,0 +1,4 @@
+pygame==2.5.2
+numpy==1.26.4
+tensorflow==2.16.1
+
