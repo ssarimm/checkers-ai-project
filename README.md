@@ -70,10 +70,10 @@ cd checkers-ai-project</code></pre>
     <hr>
     <h2>📈 Training Progress</h2>
     <p>Here's a visualization of the training progress:</p>
-    <img src="main/checkers-AI/training_progress.PNG" alt="Training Progress">
+    <img src="training_progress.PNG" alt="Training Progress">
     <h2>📊 After Training Results</h2>
     <p>These graphs illustrate the performance of the AI after training:</p>
-    <img src="main/checkers-AI/graphs.png" alt="Graphs">
+    <img src="graphs.png" alt="Graphs">
     <hr>
     <h2>🛠️ Technologies Used</h2>
     <ul>
