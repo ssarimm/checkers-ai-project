@@ -73,7 +73,7 @@ cd checkers-ai-project</code></pre>
     <img src="training_progress.PNG" alt="Training Progress">
     <h2>📊 After Training Results</h2>
     <p>These graphs illustrate the performance of the AI after training:</p>
-    <img src="graphs.png" alt="Graphs">
+    <img src="graphs.PNG" alt="Graphs">
     <hr>
     <h2>🛠️ Technologies Used</h2>
     <ul>
@@ -89,9 +89,9 @@ cd checkers-ai-project</code></pre>
     <hr>
     <h2>📚 Documentation</h2>
     <ul>
-        <li>📄 <a href="src/checkers-AI/Project Proposal Checkers.docx">Project Proposal</a></li>
-        <li>📄 <a href="src/checkers-AI/Project Report CheckersAI.pdf">Final Report</a></li>
-        <li>📽️ <a href="src/checkers-AI/demo_video.mp4">Demo Video</a></li>
+        <li>📄 <a href="Project Proposal Checkers.docx">Project Proposal</a></li>
+        <li>📄 <a href="Project Report CheckersAI.pdf">Final Report</a></li>
+        <li>📽️ <a href="demo_video.mp4">Demo Video</a></li>
     </ul>
     <hr>
     <h2>📘 References</h2>
