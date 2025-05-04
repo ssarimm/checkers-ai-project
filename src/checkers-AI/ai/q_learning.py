@@ -150,7 +150,7 @@ class QLearningAgent:
 
     def save(self, path):
         """Save model weights and training metadata."""
-        # ensure the filename ends with .weights.h5
+       
         if not path.endswith(".weights.h5"):
             base, _ = os.path.splitext(path)
             path = base + ".weights.h5"
