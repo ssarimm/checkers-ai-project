@@ -41,7 +41,6 @@ def show_menu(screen):
     WIDTH, HEIGHT = screen.get_size()
     options = ["Human vs Human", "Human vs Minimax", "Human vs Q-Learning"]
     total_h = len(options) * BTN_H + (len(options) - 1) * GAP
-    # shift button block up by 20px (or adjust as needed)
     start_y = HEIGHT // 2 - total_h // 2 + 20
 
     buttons = []
