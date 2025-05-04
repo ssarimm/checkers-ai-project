@@ -115,8 +115,8 @@ def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)
     pygame.display.set_caption("Checkers AI")
 
-    # ← Add these three lines to the top of main()
-    TRAIN_MODE    = False   # Set True to train the Q‑agent when you pick option 3
+    
+    TRAIN_MODE    = False   # Set True to train the Q‑agent 
     EPISODES      = 200     # How many episodes to run during training
     SAVE_INTERVAL = 50      # Save the model every N episodes
 
@@ -134,11 +134,11 @@ def main():
             ai_agent = QLearningAgent(state_shape=STATE_SHAPE, action_size=ACTION_SIZE)
             ai_agent.color = WHITE
 
-            # ← Load only if you're in PLAY mode
+            #  Load only if you're in PLAY mode
             if os.path.isfile(MODEL_PATH) and not TRAIN_MODE:
                 ai_agent.load(MODEL_PATH)
 
-            # ← If TRAIN_MODE, run the training loop, then go back to menu
+            #  If TRAIN_MODE, run the training loop, then go back to menu
             if TRAIN_MODE:
                 print("\nStarting Q-Learning training...")
                 best_reward = -np.inf
@@ -167,8 +167,7 @@ def main():
                 # back to menu
                 continue
 
-        # ─────────────────────────────────────────────
-        # Now the same play loop you already have:
+        
         running = True
         while running:
             clock.tick(FPS)
