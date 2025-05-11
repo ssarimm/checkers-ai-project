@@ -46,7 +46,7 @@ checkers-ai-project/
     </code></pre>
     <hr>
     <h2>🎥 Demo Video</h2>
-    <p>🔗 <a href="demo_video.mp4"><strong>Watch Demo Video</strong></a> – See the AI in action playing against a human.</p>
+    <p>🔗 <a href="[demo_video.mp4](https://drive.google.com/file/d/14nNbErcSa3PnQWTPevzSdX7je4Nr3kDd/view?usp=sharing)"><strong>Watch Demo Video</strong></a> – See the AI in action playing against a human.</p>
     <hr>
     <div style="background-color: #f0f8ff; padding: 10px; border-radius: 5px;">
         <h2>🚀 Getting Started</h2>
